@@ -1,14 +1,5 @@
-server:  
-  port: 8761   # HTTP port
-  
+message: Escribo desde git
 eureka:
   client:
    register-with-eureka: false
    fetch-registry: false
-
-logging:  
-  file: logs/${spring.application.name}.log
-  level:
-    com.netflix.discovery: 'OFF'
-    org.springframework.cloud: 'DEBUG'
-    com.piloto: 'DEBUG
