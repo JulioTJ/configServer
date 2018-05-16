@@ -1,3 +1,4 @@
+message: Funciona
 server:  
   port: 8200   # HTTP port
   
@@ -13,4 +14,4 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
     com.piloto: 'DEBUG
-
+message: Funciona
