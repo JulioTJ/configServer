@@ -1,5 +1,10 @@
 server:  
   port: 8761   # HTTP port
+  
+eureka:
+  client:
+   register-with-eureka: false
+   fetch-registry: false
 
 logging:  
   file: logs/${spring.application.name}.log
