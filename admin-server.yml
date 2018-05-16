@@ -1,0 +1,7 @@
+message: Escribo desde git
+eureka:
+  client:
+   enabled:true 
+    service-url:
+     default-zone: http://localhost:8761/eureka
+
